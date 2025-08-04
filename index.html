@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LASSICOIN ($LASSI) - The Chillest Meme Coin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a202c; /* Dark background */
+        }
+        .hero-bg {
+            background-color: #2d3748;
+            background-image: radial-gradient(circle at 1px 1px, #4a5568 1px, transparent 0);
+            background-size: 20px 20px;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+        }
+        .btn-primary {
+            background-color: #FBBF24; /* Amber 400 */
+            color: #1a202c;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #F59E0B; /* Amber 500 */
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(251, 191, 36, 0.2), 0 4px 6px -2px rgba(251, 191, 36, 0.1);
+        }
+        .btn-secondary {
+            background-color: transparent;
+            border: 2px solid #FBBF24;
+            color: #FBBF24;
+            transition: all 0.3s ease;
+        }
+        .btn-secondary:hover {
+            background-color: #FBBF24;
+            color: #1a202c;
+        }
+    </style>
+</head>
+<body class="text-white">
+
+    <!-- Header -->
+    <header class="py-4 px-6 md:px-12 absolute top-0 left-0 w-full z-10">
+        <nav class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <!-- SVG Logo -->
+                <svg class="w-10 h-10" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M68.5 20H31.5C28.1863 20 25.5 22.6863 25.5 26V30H74.5V26C74.5 22.6863 71.8137 20 68.5 20Z" fill="#FBBF24"/>
+                    <path d="M25.5 32.5V75C25.5 78.3137 28.1863 81 31.5 81H68.5C71.8137 81 74.5 78.3137 74.5 75V32.5H25.5Z" fill="#FBBF24" fill-opacity="0.8"/>
+                    <path d="M45 50C45 47.2386 47.2386 45 50 45C52.7614 45 55 47.2386 55 50C55 52.7614 52.7614 55 50 55C47.2386 55 45 52.7614 45 50Z" fill="white"/>
+                    <path d="M45 65C45 62.2386 47.2386 60 50 60C52.7614 60 55 62.2386 55 65C55 67.7614 52.7614 70 50 70C47.2386 70 45 67.7614 45 65Z" fill="white"/>
+                    <path d="M35 55C35 52.2386 37.2386 50 40 50C42.7614 50 45 52.2386 45 55C45 57.7614 42.7614 60 40 60C37.2386 60 35 57.7614 35 55Z" fill="white"/>
+                    <path d="M55 55C55 52.2386 57.2386 50 60 50C62.7614 50 65 52.2386 65 55C65 57.7614 62.7614 60 60 60C57.2386 60 55 57.7614 55 55Z" fill="white"/>
+                    <path d="M50 20C52.7614 20 55 17.7614 55 15C55 12.2386 52.7614 10 50 10C47.2386 10 45 12.2386 45 15C45 17.7614 47.2386 20 50 20Z" fill="white"/>
+                </svg>
+                <span class="text-2xl font-black tracking-tighter">LASSICOIN</span>
+            </div>
+            <div class="hidden md:flex items-center gap-6 text-lg font-bold">
+                <a href="#about" class="hover:text-amber-400 transition-colors">About</a>
+                <a href="#tokenomics" class="hover:text-amber-400 transition-colors">Tokenomics</a>
+                <a href="#community" class="hover:text-amber-400 transition-colors">Community</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-bg min-h-screen flex items-center justify-center pt-24 pb-12 px-4">
+            <div class="container mx-auto text-center">
+                <div class="w-48 h-48 mx-auto mb-6">
+                    <!-- Main SVG Logo -->
+                     <img src="https://i.imgur.com/u11CVzH.png" alt="LassiCoin Logo" class="w-full h-full object-contain">
+                </div>
+                <h1 class="text-5xl md:text-7xl font-black tracking-tighter mb-4 text-amber-300">Feeling the Heat? Grab a $LASSI.</h1>
+                <p class="text-xl md:text-2xl max-w-3xl mx-auto text-gray-300 mb-8">
+                    The Chillest, Creamiest, Most Refreshingly Useless Meme Coin.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <a href="https://pump.fun/" target="_blank" rel="noopener noreferrer" class="btn-primary font-bold text-xl py-4 px-8 rounded-full w-full sm:w-auto">
+                        Buy on Pump.fun
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn-secondary font-bold text-xl py-4 px-8 rounded-full w-full sm:w-auto">
+                        Join Telegram
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 px-4">
+            <div class="container mx-auto max-w-4xl text-center">
+                <h2 class="text-4xl font-black mb-4">No Utility. Just Vibes.</h2>
+                <div class="glass-card p-8 text-lg text-gray-300">
+                    <p>
+                        LASSICOIN is a creamy coin for spicy markets. In a world full of complex roadmaps and broken promises, we offer something simpler: good vibes and a digital glass of lassi. There is no utility, no pre-sale, and no team tokens. Just 100% community-driven fun. This is for entertainment purposes only.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tokenomics Section -->
+        <section id="tokenomics" class="py-20 px-4 bg-gray-800">
+            <div class="container mx-auto max-w-5xl">
+                <h2 class="text-4xl font-black text-center mb-12">Tokenomics</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="glass-card p-6 text-center">
+                        <p class="text-amber-400 text-2xl font-bold mb-2">1B</p>
+                        <h3 class="text-xl font-bold">Total Supply</h3>
+                    </div>
+                    <div class="glass-card p-6 text-center">
+                        <p class="text-amber-400 text-2xl font-bold mb-2">Burned 🔥</p>
+                        <h3 class="text-xl font-bold">Liquidity</h3>
+                    </div>
+                    <div class="glass-card p-6 text-center">
+                        <p class="text-amber-400 text-2xl font-bold mb-2">Renounced ✅</p>
+                        <h3 class="text-xl font-bold">Ownership</h3>
+                    </div>
+                    <div class="glass-card p-6 text-center">
+                        <p class="text-amber-400 text-2xl font-bold mb-2">0% / 0%</p>
+                        <h3 class="text-xl font-bold">Buy/Sell Tax</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Section -->
+        <section id="community" class="py-20 px-4">
+            <div class="container mx-auto max-w-4xl text-center">
+                <h2 class="text-4xl font-black mb-4">Join the Lassi Coin Army!</h2>
+                <p class="text-xl text-gray-300 mb-8">
+                    Follow us on X and join our Telegram to get the latest memes and announcements.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 text-2xl font-bold hover:text-amber-400 transition-colors">
+                        <!-- X/Twitter Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.6.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                        </svg>
+                        <span>Follow on X</span>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 text-2xl font-bold hover:text-amber-400 transition-colors">
+                        <!-- Telegram Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.16.123-.645-.316-1.015-.815-1.037a48 48 0 0 0-1.04-.007"/>
+                        </svg>
+                        <span>Join Telegram</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-8 px-4 border-t border-gray-700">
+        <div class="container mx-auto text-center text-gray-400">
+            <p class="mb-2">&copy; 2025 LASSICOIN. All Rights Reserved. Mostly.</p>
+            <p class="text-sm">
+                $LASSI is a meme coin with no intrinsic value or expectation of financial return. It is for entertainment purposes only. Please do your own research (DYOR) and invest responsibly.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
